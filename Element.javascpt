@@ -1,0 +1,10 @@
+<html>
+  <title> RangeField Value Using  Output Element </title>
+   <body>
+   <script>
+     <span id ="ratingValue">0</span><br/>
+     <output name=output>0</output><br/>
+     <input type= "range " name = "rating" min="0" max ="100" step = "1" value ="0" oninput="output.value=rating.value"/>
+   </script>
+   </body>
+</html>   
